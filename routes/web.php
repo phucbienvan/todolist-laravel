@@ -14,4 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
+Route::get('/phuc', function (){
+   echo 'thaoiu';
+});
